@@ -1,0 +1,41 @@
+{
+  "products": [
+    {
+      "id":"1",
+      "img": "/products/Ryzen5.png",
+      "title": "AMD Ryzen 5 5600X 4,6GHz",
+      "description": "6 núcleos y 12 hilos desbloqueados procesador de escritorio con Wraith Stealth Cooler",
+      "cost": "153",
+      "beforeCost": "170",
+      "discount": "10"
+    },
+    {
+      "id":"2",
+      "img": "/products/AsusTufGaming.png",
+      "title": "ASUS TUF F15 Gaming Laptop",
+      "description": "NVIDIA GeForce RTX 4070, Intel 13th Core i7-13620H, 15.6\" 144Hz FHD IPS Display, 64 GB DDR5, 2 TB SSD, Wi-Fi 6, Win 11...",
+      "cost": "1,639",
+      "beforeCost": "1,999",
+      "discount": "18"
+    },
+    {
+      "id":"3",
+      "img": "/products/AsusRogStrig.png",
+      "title": "ASUS ROG Strix G18 2024",
+      "description": "2.5K 240Hz, Intel 24-Core i9-14900HX, NVIDIA GeForce RTX 4060, 64GB DDR5, 2TB SSD, teclado retroiluminado RGB...",
+      "cost": "1,671",
+      "beforeCost": "2,199",
+      "discount": "24"
+    },
+    {
+      "id":"4",
+      "img": "/products/IntelCorei5.png",
+      "title": "Intel Core i5-14400F 4,7GHz",
+      "description": "Procesador de escritorio 10 núcleos (6 núcleos P + 4 núcleos E) hasta 4.7 GHz",
+      "cost": "126",
+      "beforeCost": "175",
+      "discount": "28"
+    }
+  ]
+}
+  
