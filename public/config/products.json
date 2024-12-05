@@ -35,6 +35,15 @@
       "cost": "126",
       "beforeCost": "175",
       "discount": "28"
+    },
+    {
+      "id":"5",
+      "img": "/products/Zapatito.png",
+      "title": "Zapatito blanco zapatito azul",
+      "description": "Cansado ultramegadeportivo con capacidades flotantes.",
+      "cost": "0.85",
+      "beforeCost": "10.45",
+      "discount": "92"
     }
   ]
 }

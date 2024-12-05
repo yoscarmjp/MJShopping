@@ -4,6 +4,9 @@ import Header from './components/Header'
 import Footer from './components/Footer'
 import HomePage from './pages/Home'
 import OffertsDay from './pages/OffertsDay'
+import BlackFriday from './pages/BlackFriday'
+import Register from './pages/Register'
+import Login from './pages/Login'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
@@ -19,13 +22,23 @@ export default function Home() {
         return <HomePage />;
       case "offertsday":
         return <OffertsDay />;
+      case "blackfriday":
+        return <BlackFriday />;
+      case "register":
+        return <Register />;
+      case "login":
+        return <Login />;
       default:
         return <HomePage />;
     }
   };
+
+  const loginPages = ["register", "login"]
   return (
-    <><Header setCurrentPage={setCurrentPage} />
+    <>
+    {!loginPages.includes(currentPage) && <Header setCurrentPage={setCurrentPage} />}
     <main>{renderPage()}</main>
-    <Footer /></>
+    {!loginPages.includes(currentPage) && <Footer />}
+    </>
   );
 }

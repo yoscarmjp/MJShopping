@@ -1,6 +1,6 @@
 import ColumnProducts from '../components/Products/ListColumnBox';
 
-function OffertsDay(){
+function BlackFriday(){
     return(
 
         <div>
@@ -67,4 +67,4 @@ function OffertsDay(){
     );
 }
 
-export default OffertsDay;
+export default BlackFriday;
