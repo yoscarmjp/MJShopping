@@ -11,8 +11,6 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { useState } from "react";
 
-
-
 export default function Home() {
   const [currentPage, setCurrentPage] = useState("home");
 
@@ -25,9 +23,9 @@ export default function Home() {
       case "blackfriday":
         return <BlackFriday />;
       case "register":
-        return <Register />;
+        return <Register setCurrentPage={setCurrentPage}/>;
       case "login":
-        return <Login />;
+        return <Login setCurrentPage={setCurrentPage}/>;
       default:
         return <HomePage />;
     }

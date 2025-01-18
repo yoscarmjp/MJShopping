@@ -1,6 +1,6 @@
 function Footer(){
     return(
-        <footer className="bg-[#111113] w-full py-11 px-6 bottom-0 flex justify-between text-base">
+        <footer className="bg-[#111113] w-full py-11 px-6 bottom-0 flex flex-col justify-center items-center gap-8 lg:flex-row lg:justify-between text-base">
             <div className="flex items-center flex-col">
                 <img src="/images/MJLogo.png" className="w-24"/>
                 <p className="w-80 text-center text-white">
@@ -9,8 +9,8 @@ function Footer(){
                 </p>
             </div>
             <div>
-                <h1 className="font-semibold pb-1 text-white">OTHERS</h1>
-                <ul className="text-white ml-1">
+                <h1 className="font-semibold pb-1 text-white text-center">OTHERS</h1>
+                <ul className="text-white ml-1 text-center">
                     <li><a href="/">Tendencies</a></li>
                     <li><a href="/">Featured Products</a></li>
                     <li><a href="/">Your purchases</a></li>
@@ -18,8 +18,8 @@ function Footer(){
                 </ul>
             </div>
             <div>
-                <h1 className="font-semibold pb-1 text-white">COMPANY</h1>
-                <ul className="text-white ml-1">
+                <h1 className="font-semibold pb-1 text-white text-center">COMPANY</h1>
+                <ul className="text-white ml-1 text-center">
                     <li><a href="/">Terms and Conditions</a></li>
                     <li><a href="/">Our Team</a></li>
                     <li><a href="/">Services</a></li>

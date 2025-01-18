@@ -17,7 +17,7 @@ const Header = ({ setCurrentPage }) => {
                 <a href=""><i className='bx bxs-cart-add'></i></a>
                 <div id="downMenu">
                     <a id="btnMenu" href=""><i className='bx bxs-user-circle'></i></a>
-                    <div id="menu" className="hidden absolute right-12 z-30 flex flex-col top-16 bg-[#222325] gap-5 p-4 rounded-lg text-lg">
+                    <div id="menu" className="hidden absolute right-12 z-30 flex flex-col top-[55px] bg-[#222325] gap-5 p-4 rounded-lg text-lg">
                         <button onClick={() => setCurrentPage('register')} 
                             className="hover:underline">Create your account</button>
                         <button onClick={() => setCurrentPage('login')}
